@@ -1,0 +1,400 @@
+$blue-clr: #07315f;
+$ylw-clr: #e8b109;
+$text-clr: #bfd3e8;
+$lb-clr: #3793f5;
+$card-clr: #062140;
+$m-font: 'Marmelad', sans-serif;
+$r-font: 'Roboto', sans-serif;
+$q-font: 'Niconne', cursive;
+@mixin display-3 {
+		font-size: 3.2rem;
+		font-weight: 800;
+		line-height: 1.2;
+		letter-spacing: 1px;
+		padding-bottom: 25px;
+	}
+@mixin container {
+		padding-top: 7rem;
+		padding-bottom: 5rem;
+	}
+@mixin resp {
+		padding-top: 4.6rem;
+		.display-3 {
+			font-size: 2.9rem;
+			padding-bottom: 12px;
+		}	
+}
+.body {
+	background-color: $blue-clr;
+	color: $text-clr;
+	font-family: $r-font;
+}
+body {
+	.navbar {
+		padding-top: 20px;
+		padding-left: 60px;
+	}
+	.navbar-light {
+		.navbar-brand {
+			color: #fff;
+			letter-spacing: 2px;
+			font-size: 28px;
+			font-family: $m-font;
+			padding-bottom: 0px;
+			border-bottom: 2px solid $ylw-clr;
+			span {
+				font-size: 15px;
+			}
+		}	
+		.navbar-nav {
+			.nav-link {
+				color: $ylw-clr;
+				letter-spacing: 1px;
+				font-size: 18px;
+				font-family: $m-font;
+				&:hover {
+					color: #88939c;
+				}
+				&:visited {
+					color: $ylw-clr;
+				}
+			}			
+		}
+	}
+	.container {
+		@include container;
+	}
+	.name {
+		color: #fff;
+	}
+}
+
+#Home {
+	margin-top: 4rem;
+	.display-1 {
+		font-weight: 800;
+	}
+	.display-3 {
+		font-size: 4.3rem;
+		font-weight: 800;
+		line-height: 1.2;
+		letter-spacing: 1px;		
+	}
+}
+
+#About {
+	position: relative;
+	.display-3 {
+		@include display-3;
+	}
+	.about {
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 27px;
+		letter-spacing: 1px;
+		font-family: $r-font;
+		width: 600px;
+	}
+	a {
+		color: $ylw-clr;
+	}
+	img {
+		position: absolute;
+		width: 50%;
+	}
+	.coder {
+		top: 28%;
+		right: -7%;
+	}
+	.quote {
+		font-size: 26px;
+		font-family: $q-font;
+		letter-spacing: 2px;
+		line-height: 27px;
+		width: 600px;
+		color: white;
+		font-style: italic;
+		border-left: solid .5rem $ylw-clr;
+		padding-left: 1rem;
+	}
+}
+
+#Skills {
+	.display-3 {
+		@include display-3;
+	}
+	.Languages, .Tools, .Frameworks, .Designs, .Areas {
+		font-size: 2.4rem;
+		font-weight: 800;
+		letter-spacing: 2px;
+	}
+	.L, .T, .F, .D, .A {
+		.material-icons {
+			color: $ylw-clr;
+			font-size: 18px;			
+		}
+	}
+	.Languages-lists, .Frameworks-lists, .Tools-lists, .Designs-lists, .Areas-lists {
+		list-style-type: none;
+		letter-spacing: 2px;
+		padding-left: 5px;
+		li {
+			font-size: 1.1rem;
+			font-weight: 700;
+			padding-top: 8px;
+		}
+	}
+}
+
+#Projects {
+	.display-3 {
+		@include display-3;
+	}
+	.material-icons {
+		font-size: 20px;
+		float: right;
+	}
+	.row {
+		display: flex;
+		flex-wrap: unset;
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	.col-sm-4 {
+		padding: 7px;
+		margin: 7px;
+	}
+	.card {
+		background-color: $card-clr;
+		border: 2px outset $ylw-clr;
+		border-radius: 0.4rem;
+	}
+	.card-header {
+		padding: 0.75rem 1.25rem;
+		margin-bottom: 0;
+		background-color: $card-clr;
+		border-bottom: 1px solid $card-clr; 
+	}
+	.card-body {
+		padding: 0rem 1rem;
+	}
+	.card-footer {
+		padding: 0.75rem 1.25rem;
+		background-color: $card-clr;
+		border-top: 1px solid $card-clr;
+	}
+	h3 {
+		font-size: 1.3rem;
+		font-weight: 700;
+		letter-spacing: 1px;
+		line-height: inherit;
+	}
+	.badge-light {
+		color: black;
+		background-color: #a27f14;
+	}
+	.fab {
+		font-size: 20px;
+		float: right;
+	}
+}
+
+#Contact {
+	padding-bottom: 0px;
+	.display-3 {
+		@include display-3;
+	}
+	hr {
+		border-top: 1px solid $ylw-clr;
+	}
+	.btn {
+		color: $ylw-clr;
+		padding-bottom: 12px;
+		padding-left: 9px;
+		padding-top: 0px;
+		padding-right: 0px;
+		&:focus {
+			box-shadow: 0 0 0 0.2rem $blue-clr;
+		}
+	}
+	.first_row {
+		margin-top: 80px;
+		margin-bottom: 80px;
+		hr {
+			max-width: 20%;
+		}
+	}
+	.second_row {
+		margin-top: 80px;
+		margin-bottom: 180px;		
+		hr {
+			max-width: 10%;
+		}	
+	}
+	.gmail {
+		font-weight: 700;
+		color: $lb-clr;
+		max-width: 20%;
+		padding-top: 3px;
+	}
+	p {
+		font-size: 17px;
+		letter-spacing: 2px;
+	}
+	span {
+		border-bottom: 2px solid $ylw-clr;
+	}
+	.contacts {
+		max-width: 20%;
+	}
+	.fab {
+		font-size: 30px;
+		color: $lb-clr;
+		text-align: center;
+		text-decoration: none;
+		width: 50px;
+		padding: 10px;
+		margin: 5px 2px;
+		border-radius: 50%;
+		display: inline;
+	}
+}
+// Most of the Smartphones Mobiles (Portrait)
+@media screen and (max-width: 479px) {
+	body {
+		overflow-x: hidden;
+		.navbar {
+			padding-top: 5px;
+			padding-left: 30px;
+		}
+		.navbar-toggler {
+			padding: 0.1rem 0.1rem;
+			font-size: 1rem;
+			margin: 10px;
+		}
+		.navbar-light {
+			.navbar-brand {
+				font-size: 30px;
+				span {
+					font-size: 20px;
+				}
+			}
+		}
+		.navbar-collapse {
+			background-color: #16164c;
+    		padding: 106px;
+    		border-radius: 6px;
+		}
+		.container {
+			width: fit-content;
+			padding: 2rem;
+		}
+	}
+	#Home {
+    	margin-top: 8rem;
+		.display-1 {
+			font-size: 5rem;
+		}
+		.display-3 {
+			font-size: 2.7rem;
+			letter-spacing: 2px;
+			line-height: 1.2;
+		}
+	}
+	#About {
+		@include resp;
+		.coder {
+			display: none;
+		}
+		.about {
+			font-size: 17px;
+			line-height: 24px;
+			width: auto;
+			letter-spacing: 0px;
+		}
+		.quote {
+			font-size: 25px;
+			width: auto;
+		}
+	}
+	#Skills {
+		@include resp;
+		.skills-row {
+			display: block;
+		}
+		.Languages-lists, .Frameworks-lists, .Tools-lists, .Designs-lists, .Areas-lists {
+			letter-spacing: 1px;
+		}
+	}
+	#Projects {
+		@include resp;
+		.display-3 {
+			padding-bottom: 45px;
+		}
+		.row {
+			display: contents;
+			flex-wrap: unset;
+			margin-right: 10px; 
+			margin-left: 0px; 
+		}
+		.col-sm-4 {
+			margin-top: 20px;
+		}
+		.badge {
+			font-size: 80%;
+		}
+	}
+	#Contact {
+		@include resp;
+		.display-3 {
+			margin-bottom: 10px;
+		}
+		.gmail {
+			padding-top: 90px;
+    		font-size: 20px;			
+		}
+		.fab {
+			padding: 20px;
+		}
+		.far {
+			font-size: 32px;
+		}
+		.first_row {
+			hr {
+				display: none;
+			}
+		}
+		.second_row {
+			margin-bottom: 110px;
+			hr {
+				display: none;
+			}
+		}
+		.row {
+			margin-left: 0rem !important;
+			padding-top: 0rem !important;
+			margin-top: 0rem !important;
+			display: block;
+		}
+		.btn {
+			margin: auto;
+			display: block;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-top: 0px;
+			padding-right: 0px;
+		}
+	}
+}
+// Low Resolution Tablets, Mobiles (Landscape)
+@media (min-width: 481px) and (max-width: 767px) {
+	
+}
+// Tablets, Ipads (portrait)
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+}
+// Tablets, Ipads (landscape)
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	
+}

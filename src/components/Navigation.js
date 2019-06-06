@@ -1,0 +1,25 @@
+import React, { Component } from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+
+class Navigation extends Component {
+	render () {
+		return (
+			<Navbar collapseOnSelect expand="sm" className="fixed-top">
+				<Navbar.Brand href="/">
+					<b>M</b><span>adhubala</span>
+				</Navbar.Brand>
+				<Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={this.openNav}/>
+				<Navbar.Collapse id="responsive-navbar-nav">
+					<Nav className="Links ml-auto">
+						<Nav.Link href="#About"><strong>. about</strong></Nav.Link>
+						<Nav.Link href="#Skills"><strong>. skills</strong></Nav.Link>
+						<Nav.Link href="#Projects"><strong>. projects</strong></Nav.Link>
+						<Nav.Link href="#Contact"><strong>. contact</strong></Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
+		);
+	}
+};
+
+export default Navigation;
