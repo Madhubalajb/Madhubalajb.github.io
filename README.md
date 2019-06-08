@@ -64,4 +64,4 @@ ReADME.md
 7. **`README.md`** - This file is written in markdown, which gives all the refernce information (documentation) about the project.
 
 
- **Happy Coding :)**
+ <p align='center'>**Happy Coding :)**</p>
