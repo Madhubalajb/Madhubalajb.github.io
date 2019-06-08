@@ -28,11 +28,18 @@ npm start
 
 ## Directory Information
 ```
-/node_modeules
+/node_modules
 /public
     index.html
 /src
     /components
+        /images
+        About.js
+        Contact.js
+        Home.js
+        Navigation.js
+        Projects.js
+        Skills.js
     App.js
     index.js
     index.scss
@@ -41,3 +48,4 @@ package-lock.json
 package.json
 ReADME.md
 ```
+1. `/node_modules` 
