@@ -1,7 +1,7 @@
 # Madhubalajb.github.io
 > [Personal portfolio](https://madhubalajb.github.io/) for Madhubala Jayakumaran (thats me!) built using React Js.
 
-## Technology stack
+## Tech stack
 - HTML
 - SASS
 - React Js
@@ -49,8 +49,16 @@ package-lock.json
 package.json
 ReADME.md
 ```
-1. **`/node_modules`** - The place where all the modules and packages of the project are installed.  
+1. **`/node_modules`** - The place where all the modules and packages of the project are installed. 
+
 2. **`/public`** - The directory contains the `index.html` and `favicon.png`, which are not read by the [Webpack](https://survivejs.com/webpack/what-is-webpack/). 
+
 3. **`/src`** - This directory contains all the source code of the project that what we will see in the front-end. And the webpack only reads the files in this directory.
+
 4. **`.gitignore`** - This file will tell the git what are the files to ignore, when pushing to remote. It mentions all the complex, large files like /node_modules.
-5. **`package-lock.json`** - 
+
+5. **`package-lock.json`** - An automatically genaerated JSON file based on the exact versions of the insatlled npm dependencies. 
+
+6. **`package.json`** - This JSON file contains all the metadata about the project such as project's name, author, dependencies.
+
+7. **`README.md`** - This file is written in markdown, which gives all the refernce information(documnetation) about the project.
