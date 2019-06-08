@@ -27,3 +27,17 @@ npm start
 * [unDraw](https://undraw.co/) - Illustrations at the best
 
 ## Directory Information
+```
+/node_modeules
+/public
+    index.html
+/src
+    /components
+    App.js
+    index.js
+    index.scss
+.gitignore
+package-lock.json
+package.json
+ReADME.md
+```
