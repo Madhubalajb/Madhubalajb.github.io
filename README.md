@@ -62,3 +62,5 @@ ReADME.md
 6. **`package.json`** - This JSON file contains all the metadata about the project such as project's name, author, dependencies.
 
 7. **`README.md`** - This file is written in markdown, which gives all the refernce information (documentation) about the project.
+
+**Happy Coding :)**
