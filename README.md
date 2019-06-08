@@ -4,7 +4,7 @@
 ## Technology stack
 - HTML
 - SASS
-- ReactJS
+- React Js
 - Bootstrap
 
 ## Dependencies
@@ -31,6 +31,7 @@ npm start
 /node_modules
 /public
     index.html
+    favicon.png
 /src
     /components
         /images
@@ -48,4 +49,8 @@ package-lock.json
 package.json
 ReADME.md
 ```
-1. `/node_modules` 
+1. `**/node_modules**` - The place where all the modules and packages of the project are installed.
+2. `**/public**` - The directory contains the `index.html` and `favicon.png`, which are not read by the [Webpack](https://survivejs.com/webpack/what-is-webpack/). 
+3. `**/src**` - This directory contains all the source code of the project that what we will see in the front-end. And the webpack only reads the files in this directory.
+4. `**.gitignore**` - This file will tell the git what are the files to ignore, when pushing to remote. It mentions all the complex, large files like /node_modules.
+5. `**package-lock.json**` - 
