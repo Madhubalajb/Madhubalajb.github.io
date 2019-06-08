@@ -51,14 +51,14 @@ ReADME.md
 ```
 1. **`/node_modules`** - The place where all the modules and packages of the project are installed. 
 
-2. **`/public`** - The directory contains the `index.html` and `favicon.png`, which are not read by the [Webpack](https://survivejs.com/webpack/what-is-webpack/). 
+2. **`/public`** - The directory contains the **`index.html`** and **`favicon.png`**, which are not read by the [Webpack](https://survivejs.com/webpack/what-is-webpack/). 
 
 3. **`/src`** - This directory contains all the source code of the project that what we will see in the front-end. And the webpack only reads the files in this directory.
 
-4. **`.gitignore`** - This file will tell the git what are the files to ignore, when pushing to remote. It mentions all the complex, large files like /node_modules.
+4. **`.gitignore`** - This file will tell the git what are the files to ignore, when pushing to remote. It mentions all the complex, large files like **/node_modules**.
 
 5. **`package-lock.json`** - An automatically genaerated JSON file based on the exact versions of the insatlled npm dependencies. 
 
 6. **`package.json`** - This JSON file contains all the metadata about the project such as project's name, author, dependencies.
 
-7. **`README.md`** - This file is written in markdown, which gives all the refernce information(documnetation) about the project.
+7. **`README.md`** - This file is written in markdown, which gives all the refernce information (documentation) about the project.
