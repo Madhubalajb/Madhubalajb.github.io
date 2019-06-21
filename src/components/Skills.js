@@ -23,7 +23,6 @@ const Skills = () => {
 					<h1 className="Frameworks">Frameworks</h1>
 					<ul className="Frameworks-lists">
 						<li><i className="material-icons">arrow_right</i>Flask</li>
-						<li><i className="material-icons">arrow_right</i>Django</li>
 						<li><i className="material-icons">arrow_right</i>React.js</li>
 						<li><i className="material-icons">arrow_right</i>Node.js</li>
 						<li><i className="material-icons">arrow_right</i>Bootstrap</li>
