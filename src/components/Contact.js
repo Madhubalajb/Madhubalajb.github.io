@@ -16,10 +16,10 @@ const Contact = () => {
 			<div className="row second_row">
 				<hr className="col-sm-4" />
 				<div className="contacts text-center">
-					<a className="fab fa-github" href="https://github.com/Madhubalajb" target="_blank"></a>
-					<a className="fab fa-linkedin-in" href="https://www.linkedin.com/in/madhujb/" target="_blank"></a>
-					<a className="fab fa-instagram" href="https://www.instagram.com/madhubala_jayakumaran/" target="_blank"></a>
-					<a className="fab fa-codepen" href="https://codepen.io/Madhujb/" target="_blank"></a>
+					<a className="fab fa-github" href="https://github.com/Madhubalajb" rel="noopener noreferrer" target="_blank"></a>
+					<a className="fab fa-linkedin-in" href="https://www.linkedin.com/in/madhujb/" rel="noopener noreferrer" target="_blank"></a>
+					<a className="fab fa-instagram" href="https://www.instagram.com/madhubala_jayakumaran/" rel="noopener noreferrer" target="_blank"></a>
+					<a className="fab fa-codepen" href="https://codepen.io/Madhujb/" rel="noopener noreferrer" target="_blank"></a>
 				</div>
 				<hr className="col-sm-4" />
 			</div>	

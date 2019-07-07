@@ -10,8 +10,8 @@ const About = () => {
 			I like to build things for the web and passionate about bringing life to it with HTML, SASS, and JavaScript.</p>
 			
 			<p className="about second">I'm an ardent reader, interested in reading 
-			<a href="https://jnd.org/tag/book/"><b> Norman's</b></a> design kind of books and why not! some Novels too. 
-			Watching <a href="https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA"><b>VOX</b></a> videos on YouTube is one of my favorite things.</p>
+			<a href="https://jnd.org/tag/book/" rel="noopener noreferrer" target="_blank"><b> Norman's</b></a> design kind of books and why not! some Novels too. 
+			Watching <a href="https://www.youtube.com/channel/UCLXo7UDZvByw2ixzpQCufnA" rel="noopener noreferrer" target="_blank"><b>VOX</b></a> videos on YouTube is one of my favorite things.</p>
 			
 			<p className="about third">P.S. I can't survive without Stackoverflow and YouTube. 
 			Wait, of course Google too :)</p>
