@@ -91,7 +91,7 @@ body {
 	.about {
 		font-size: 19px;
 		font-weight: 400;
-		line-height: 27px;
+		line-height: 30px;
 		letter-spacing: 1px;
 		font-family: $r-font;
 		width: 600px;
@@ -151,6 +151,9 @@ body {
 	.display-3 {
 		@include display-3;
 	}
+	a:hover {
+		color: $lb-clr;
+	}
 	.row {
 		display: flex;
 		flex-wrap: unset;
@@ -161,13 +164,17 @@ body {
 		h2 {
 			margin-bottom: 30px;
 		}
+		p {
+			margin-bottom: 30px;
+		}
 		.prj-img {
 			margin-left: 90px;
 		}
 		.links {
+			margin-top: 15px;
 			display: flex;
 			a {
-				padding: 5px;
+				padding: 20px;
 			}
 			.material-icons {
 				font-size: 28px;
@@ -175,6 +182,11 @@ body {
 			.fab {
 				margin-top: 2px;
 				font-size: 25px;
+				&:hover {
+					font-size: 30px;
+					text-decoration: none;
+					color: $ylw-clr;
+				}
 			}		
 		}
 	}
@@ -189,6 +201,10 @@ body {
 		.fab{
 			font-size: 20px;
 			float: right;
+			&:hover {
+				color: $lb-clr;
+				text-decoration: none;
+			}
 		}
 	}
 	.card-header {
@@ -218,7 +234,7 @@ body {
 		font-weight: 600;
 		margin-bottom: 5px;
 		span {
-			padding: 5px;
+			padding-right: 10px;
 		}
 	}
 }
@@ -234,7 +250,7 @@ body {
 	.btn {
 		color: $ylw-clr;
 		padding-bottom: 12px;
-		padding-left: 9px;
+		padding-left: 0px;
 		padding-top: 0px;
 		padding-right: 0px;
 		&:focus {
@@ -283,6 +299,7 @@ body {
 		display: inline;
 	}
 }
+
 // Most of the Smartphones Mobiles (Portrait)
 @media screen and (max-width: 479px) {
 	body {

@@ -38,8 +38,9 @@ const Project = () => {
 			<div className="row project">
 				<div className="col">
 					<h2><b>Phone Book</b></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					<p>A simple web app built for fun using React, Node, MongoDB, REST API for saving the essential phone numbers. 
+					Developed as a part of the <br/>
+					<a href="https://fullstackopen.com/en" rel="noopener noreferrer" target="_blank">Full Stack Open Course</a>.</p> 
 					<div className="badges">
 						<span>React</span>
 						<span>HTML</span>
@@ -56,7 +57,7 @@ const Project = () => {
 							<i className="material-icons">launch</i>
 						</a>
 						<a href="https://github.com/Madhubalajb/FullStackOpen-Exercises/tree/master/part2/part2-b(phone_book)" 
-						rel="noopener noreferrer" target="_blank" className="fab fa-github" />
+							rel="noopener noreferrer" target="_blank" className="fab fa-github" />
 					</div>
 				</div>
 				<div className="col prj-img">
@@ -67,8 +68,7 @@ const Project = () => {
 			<div className="row project">
 				<div className="col">
 					<h2><b>Varshu's Art</b></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p>React based Web application for showcasing some artful pastel drawings and pencil sketches of my sister.</p>
 					<div className="badges">
 						<span>React</span>
 						<span>HTML</span>
@@ -142,7 +142,7 @@ const Project = () => {
 					</div>
 					<div className="card-body">
 						<h3>Personal Website</h3>
-						<p>My personal portfolio developed using React JS and hosted on Github Pages.</p>
+						<p>My personal portfolio developed using React and hosted on Github Pages.</p>
 					</div>
 					<div className="card-footer">
 						<div className="badges">
@@ -154,50 +154,6 @@ const Project = () => {
 					</div>
 				</div>
 			</div>	
-
-			{/* <div className="row">
-				<div className="col-sm-4 card">
-					<div className="card-header">
-						<a href="https://github.com/Madhubalajb/Expense-Split" target="_blank" className="fab fa-github"></a>
-						<h3 className="project3">Expense Split</h3>
-					</div>
-					<div className="card-body">		
-						<p>React JS based web app for splitting the expenses spent among your colleagues and friends. 
-						Developed as a part of the Hackerearth coding challenge.</p>
-					</div>
-					<div className="card-footer">
-						<div className="badges">
-							<span>React JS</span>
-							<span>Node JS</span>
-							<span>MongoDB</span>	
-							<span>Express</span>
-							<span>Redux</span>
-							<span>HTML</span>
-							<span>CSS</span>
-							<span>Bootstrap</span>
-							<span>JS</span>	
-						</div>
-					</div>
-				</div> 
-				<div className="col-sm-4 card">
-					<div className="card-header">
-						<a href="https://github.com/Madhubalajb/Varshu-Art" rel="noopener noreferrer" target="_blank" className="fab fa-github"></a>
-						<h3 className="project5">Art Gallery</h3>
-					</div>
-					<div className="card-body">
-						<p>Web application developed using React JS for showcasing some artful sketches of my sister.</p>
-					</div>
-					<div className="card-footer">
-						<div className="badges">
-							<span class="badge badge-light mx-1 my-1">React JS</span>
-							<span class="badge badge-light mx-1 my-1">HTML</span>	
-							<span class="badge badge-light mx-1 my-1">SASS</span>
-							<span class="badge badge-light mx-1 my-1">JS</span>
-							<span class="badge badge-light mx-1 my-1">Bootstrap</span>	
-						</div>	
-					</div>
-				</div>
-			</div>	 */}
 		</section>			
 	)
 }
