@@ -7,7 +7,7 @@ const Project = () => {
 		<section id="Projects" className="container">
 			<h1 className="display-3 name">Projects</h1>
 
-			<div className="row">
+			<div className="row project">
 				<div className="col">
 					<h2><b>Expense Split</b></h2>
 					<p>React JS based web app for splitting the expenses spent among your colleagues and friends. 
@@ -30,13 +30,12 @@ const Project = () => {
 						<a href="https://github.com/Madhubalajb/Expense-Split" rel="noopener noreferrer" target="_blank" className="fab fa-github" />
 					</div>
 				</div>
-
-				<div className="col">
-					<img src={ExpenseSplit} alt="Project-Expense-Split" width="700px" />
+				<div className="col prj-img">
+					<img src={ExpenseSplit} alt="Project-Expense-Split" width="800px" />
 				</div>
 			</div>
 
-			<div className="row">
+			<div className="row project">
 				<div className="col">
 					<h2><b>Phone Book</b></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -60,13 +59,12 @@ const Project = () => {
 						rel="noopener noreferrer" target="_blank" className="fab fa-github" />
 					</div>
 				</div>
-				
-				<div className="col">
-					<img src={PhoneBook} alt="Project-Phone-Book" width="700px" />
+				<div className="col prj-img">
+					<img src={PhoneBook} alt="Project-Phone-Book" width="580px" height="450px" />
 				</div>				
 			</div>
 
-			<div className="row">
+			<div className="row project">
 				<div className="col">
 					<h2><b>Varshu's Art</b></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -84,7 +82,7 @@ const Project = () => {
 						<a href="https://github.com/Madhubalajb/Varshu-Art" rel="noopener noreferrer" target="_blank" className="fab fa-github" />
 					</div>
 				</div>
-				<div className="col">
+				<div className="col prj-img">
 
 				</div>
 			</div>
