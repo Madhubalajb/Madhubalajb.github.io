@@ -6,23 +6,24 @@ $card-clr: #062140;
 $m-font: 'Marmelad', sans-serif;
 $r-font: 'Roboto', sans-serif;
 $q-font: 'Niconne', cursive;
+$u-font: 'Roboto Mono', sans-serif;
 @mixin display-3 {
-		font-size: 3.2rem;
-		font-weight: 800;
-		line-height: 1.2;
-		letter-spacing: 1px;
-		padding-bottom: 25px;
+	font-size: 3.2rem;
+	font-weight: 800;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	padding-bottom: 25px;
 	}
 @mixin container {
-		padding-top: 7rem;
-		padding-bottom: 5rem;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
 	}
 @mixin resp {
-		padding-top: 4.6rem;
-		.display-3 {
-			font-size: 2.9rem;
-			padding-bottom: 12px;
-		}	
+	padding-top: 4.6rem;
+	.display-3 {
+		font-size: 2.9rem;
+		padding-bottom: 12px;
+	}	
 }
 .body {
 	background-color: $blue-clr;
@@ -150,15 +151,24 @@ body {
 	.display-3 {
 		@include display-3;
 	}
-	.material-icons {
-		font-size: 20px;
-		float: right;
-	}
 	.row {
 		display: flex;
 		flex-wrap: unset;
 		margin-right: 50px;
 		margin-left: 50px;
+	}
+	.links {
+		display: flex;
+		a {
+			padding: 5px;
+		}
+		.material-icons {
+			font-size: 28px;
+		}
+		.fab {
+			margin-top: 2px;
+			font-size: 25px;
+		}		
 	}
 	.col-sm-4 {
 		padding: 7px;
@@ -168,6 +178,10 @@ body {
 		background-color: $card-clr;
 		border: 2px outset $ylw-clr;
 		border-radius: 0.4rem;
+		.fab{
+			font-size: 20px;
+			float: right;
+		}
 	}
 	.card-header {
 		padding: 0.75rem 1.25rem;
@@ -186,16 +200,18 @@ body {
 	h3 {
 		font-size: 1.3rem;
 		font-weight: 700;
-		letter-spacing: 1px;
 		line-height: inherit;
 	}
-	.badge-light {
-		color: black;
-		background-color: #a27f14;
-	}
-	.fab {
-		font-size: 20px;
-		float: right;
+	.badges {
+		color: $ylw-clr;
+		font-size: small;
+		font-family: $u-font;
+		letter-spacing: 1px;
+		font-weight: 600;
+		margin-bottom: 5px;
+		span {
+			padding: 5px;
+		}
 	}
 }
 
@@ -238,8 +254,9 @@ body {
 		padding-top: 3px;
 	}
 	p {
-		font-size: 17px;
-		letter-spacing: 2px;
+		font-family: $u-font;
+		font-size: 15px;
+		letter-spacing: 1px;
 	}
 	span {
 		border-bottom: 2px solid $ylw-clr;

@@ -16,14 +16,15 @@ const Contact = () => {
 			<div className="row second_row">
 				<hr className="col-sm-4" />
 				<div className="contacts text-center">
-					<a className="fab fa-github" href="https://github.com/Madhubalajb" rel="noopener noreferrer" target="_blank"></a>
-					<a className="fab fa-linkedin-in" href="https://www.linkedin.com/in/madhujb/" rel="noopener noreferrer" target="_blank"></a>
-					<a className="fab fa-instagram" href="https://www.instagram.com/madhubala_jayakumaran/" rel="noopener noreferrer" target="_blank"></a>
-					<a className="fab fa-codepen" href="https://codepen.io/Madhujb/" rel="noopener noreferrer" target="_blank"></a>
+					<a className="fab fa-github" href="https://github.com/Madhubalajb" rel="noopener noreferrer" target="_blank" />
+					<a className="fab fa-linkedin-in" href="https://www.linkedin.com/in/madhujb/" rel="noopener noreferrer" target="_blank" />
+					<a className="fab fa-instagram" href="https://www.instagram.com/madhubala_jayakumaran/" rel="noopener noreferrer" 
+						target="_blank" />
+					<a className="fab fa-codepen" href="https://codepen.io/Madhujb/" rel="noopener noreferrer" target="_blank" />
 				</div>
 				<hr className="col-sm-4" />
 			</div>	
-			<footer className="footer text-center">
+			<footer className="text-center">
 				<p>designed & developed by <span>madhubala jayakumaran</span></p>
 			</footer>
 		</section>			
