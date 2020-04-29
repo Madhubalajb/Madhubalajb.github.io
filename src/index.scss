@@ -482,3 +482,80 @@ body {
 		}
 	}
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	#Home {
+		margin-top: 0rem;
+		.second {
+			font-size: 4rem;
+		}
+		.third {
+			font-size: 3rem;
+		}
+	}
+	#About {
+		.about {
+			font-size: 16px;
+			line-height: 25px;
+			letter-spacing: 1px;
+		}
+		img {
+			display: none;
+		}
+	}
+	#Skills {
+		.Languages, .Tools, .Frameworks, .Designs, .Areas {
+			font-size: 1.7rem;
+			letter-spacing: 1px;
+		}	
+		.Languages-lists, .Frameworks-lists, .Tools-lists, .Designs-lists, .Areas-lists {
+			letter-spacing: 0px;
+			li {
+				padding-top: 5px;
+				font-size: 1rem;
+			}
+		}
+		.col {
+			padding-right: 0px;
+    		padding-left: 12px;
+		}	
+	}
+	#Projects {
+		.project {
+			margin: 10px 20px;
+			.prj-img {
+				margin-left: 120px;
+				margin-bottom: 50px;
+				.img-one {
+					display: none;
+				}
+				.img-two {
+					display: inline-block;
+					width: 190px;
+				}
+			}
+		}
+		.row {
+			margin: 20px;
+		}
+		.col-sm-4 {
+			padding: 0px;
+		}
+		.card-footer {
+			.badges {
+				letter-spacing: 0px;
+				span {
+					padding-right: 9px;
+				}
+			}
+		}
+	}
+	#Contact {
+		.btn {
+			padding-left: 75px;
+		}
+		.fab {
+			font-size: 25px;
+		}
+	}
+}
