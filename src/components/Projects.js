@@ -1,6 +1,8 @@
 import React from 'react';
 import ExpenseSplit from './Images/ExpenseSplit.png'
 import PhoneBook from './Images/Phonebook.png'
+import esMobile from './Images/esMobile.png'
+import pbMobile from './Images/pbMobile.png'
 
 const Project = () => {
 	return (
@@ -31,7 +33,8 @@ const Project = () => {
 					</div>
 				</div>
 				<div className="col prj-img">
-					<img src={ExpenseSplit} alt="Project-Expense-Split" width="800px" />
+					<img className="img-one" src={ExpenseSplit} alt="Project-Expense-Split" width="800px" />
+					<img className="img-two" src={esMobile} alt="Project-Expense-Split" />
 				</div>
 			</div>
 
@@ -61,7 +64,8 @@ const Project = () => {
 					</div>
 				</div>
 				<div className="col prj-img">
-					<img src={PhoneBook} alt="Project-Phone-Book" width="580px" height="450px" />
+					<img className="img-one" src={PhoneBook} alt="Project-Phone-Book" width="580px" height="450px" />
+					<img className="img-two" src={pbMobile} alt="Project-Phone-Book" />
 				</div>				
 			</div>
 

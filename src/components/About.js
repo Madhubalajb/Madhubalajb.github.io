@@ -17,7 +17,7 @@ const About = () => {
 			<p className="about third">P.S. Pretty much like every developer, I can't survive without StackOverflow and YouTube. 
 			Wait, of course Google too :)</p>
 			
-			<p class="quote fourth">"Everything has a solution, only if you're trying with patience and hard effort !!"</p>
+			<p className="quote fourth">"Everything has a solution, only if you're trying with patience and hard effort !!"</p>
 			
 			<p className="about fifth">And that's my self-composed quote which drives me up daily!!</p>
 			
