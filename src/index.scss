@@ -184,12 +184,20 @@ body {
 			}
 			.material-icons {
 				font-size: 28px;
+				transition: 1s;
+				transform: scale(1);
+				&:hover {
+					transform: scale(1.2);
+					color: $ylw-clr;
+				}
 			}
 			.fab {
 				margin-top: 2px;
 				font-size: 25px;
+				transition: 1s;
+				transform: scale(1);
 				&:hover {
-					font-size: 30px;
+					transform: scale(1.2);
 					text-decoration: none;
 					color: $ylw-clr;
 				}
@@ -259,8 +267,10 @@ body {
 		padding-left: 0px;
 		padding-top: 0px;
 		padding-right: 0px;
-		&:focus {
-			box-shadow: 0 0 0 0.2rem $blue-clr;
+		transition: 1s;
+		transform: scale(1);
+		&:hover {
+			transform: scale(1.5);
 		}
 	}
 	.first_row {
@@ -289,10 +299,17 @@ body {
 		letter-spacing: 1px;
 	}
 	span {
-		border-bottom: 2px solid $ylw-clr;
+		border-bottom: 2px solid $ylw-clr; 
 	}
 	.contacts {
 		max-width: 20%;
+		a {
+			transform: scale(1);
+			transition: 1s;
+			&:hover {
+				transform: scale(1.5);
+			}
+		}
 	}
 	.fab {
 		font-size: 30px;
