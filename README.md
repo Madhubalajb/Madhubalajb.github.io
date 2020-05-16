@@ -1,4 +1,4 @@
-# Madhubalajb.github.io
+# madhubalajb.github.io :snowflake:
 > [Personal portfolio](https://madhubalajb.github.io/) for Madhubala Jayakumaran (thats me!) built using React Js.
 
 ## Tech stack
