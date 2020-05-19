@@ -25,7 +25,10 @@ const Contact = () => {
 				<hr className="col-sm-4" />
 			</div>	
 			<footer className="text-center">
-				<p>designed & developed by <span>madhubala jayakumaran</span></p>
+				<p>
+					designed & developed by <span>madhubala jayakumaran</span>
+					<a className="fab fa-github" href="https://github.com/Madhubalajb/Madhubalajb.github.io" rel="noopener noreferrer" target="_blank" />
+				</p>
 			</footer>
 		</section>			
 	)
