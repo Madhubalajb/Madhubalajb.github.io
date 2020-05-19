@@ -297,6 +297,10 @@ body {
 		font-family: $u-font;
 		font-size: 15px;
 		letter-spacing: 1px;
+		.fab {
+			font-size: 20px;
+			color: $ylw-clr;
+		}
 	}
 	span {
 		border-bottom: 2px solid $ylw-clr; 
