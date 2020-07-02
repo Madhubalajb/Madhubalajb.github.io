@@ -94,7 +94,7 @@ const Project = () => {
 			<div className="row">
 				<div className="col-sm-4 card">
 					<div className="card-header">
-						<a href="https://github.com/Madhubalajb/FaceNet-based-Attendance-System" rel="noopener noreferrer" target="_blank" 
+						<a href="https://github.com/Madhubalajb/CodeDotCrush" rel="noopener noreferrer" target="_blank" 
 							className="fab fa-github" />
 					</div>
 					<div className="card-body">
