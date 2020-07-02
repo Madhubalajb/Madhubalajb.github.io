@@ -3,6 +3,8 @@ import ExpenseSplit from './Images/ExpenseSplit.png'
 import PhoneBook from './Images/Phonebook.png'
 import esMobile from './Images/esMobile.png'
 import pbMobile from './Images/pbMobile.png'
+import varshu from './Images/varshu.png'
+import vMobile from './Images/varshuMobile.png'
 
 const Project = () => {
 	return (
@@ -13,7 +15,7 @@ const Project = () => {
 				<div className="col">
 					<h2><b>Expense Split</b></h2>
 					<p>React JS based web app for splitting the expenses spent among your colleagues and friends. 
-						Developed as a part of the Hackerearth coding challenge.</p>
+						Developed as a part of the HackerEarth coding challenge.</p>
 					<div className="badges">
 						<span>React</span>
 						<span>HTML</span>
@@ -87,7 +89,8 @@ const Project = () => {
 					</div>
 				</div>
 				<div className="col prj-img">
-
+					<img className="img-one" src={varshu} alt="Project-Varshus-Art" width="675px" />
+					<img className="img-two" src={vMobile} alt="Project-Varshus-Art" />
 				</div>
 			</div>
 
