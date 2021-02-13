@@ -119,7 +119,7 @@ const Project = () => {
 					</div>
 				</div>
 				<div className="col prj-img">
-					<img className="img-one" src={TrackDown} alt="Project-Track-Down" width="800px" />
+					<img className="img-one" src={TrackDown} alt="Project-Track-Down" width="850px" />
 					<img className="img-two" src={mtrackDown} alt="Project-Track-Down" />
 				</div>
 			</div>
