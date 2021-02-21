@@ -11,7 +11,7 @@ import mtrackDown from './Images/mobile-track-down.png'
 const Project = () => {
 	return (
 		<section id="Projects" className="container">
-			<h1 className="display-3 name">The boring projects</h1>
+			<h1 className="display-3 name">The Boring Projects</h1>
 
 			<div className="row project">
 				<div className="col">
