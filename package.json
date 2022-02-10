@@ -7,7 +7,7 @@
     "bootstrap": "^4.4.1",
     "imagemin": "^6.1.0",
     "imagemin-webp": "^5.1.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-clipboard.js": "^2.0.16",
